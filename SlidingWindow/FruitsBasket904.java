@@ -21,8 +21,10 @@ import java.util.*;
 // Explanation: We can pick from trees [2,3,2,2].
 // If we had started at the first tree, we would only pick from trees [1,2].
 public class FruitsBasket904 {
+    
     public static void main(String[] args) {
         int[] arr = {3,3,3,1,2,1,1,2,3,3,4};
+
         System.out.println(frequeny(arr));
     }
 
